@@ -2,7 +2,7 @@ load('config.js');
 
 function execute(url) {
     var fixedUrl = absoluteUrl(url).replace(/\/$/, "");
-    var doc = Http.get(fixedUrl).html();
+    var doc = getDoc(fixedUrl);
     var nextData = parseNextData(doc);
 
     if (!nextData || !nextData.props || !nextData.props.pageProps) {
@@ -25,7 +25,7 @@ function execute(url) {
         if (seen[chapterUrl]) break;
         seen[chapterUrl] = true;
 
-        var chapterDoc = Http.get(chapterUrl).html();
+        var chapterDoc = getDoc(chapterUrl);
         var chapterData = parseNextData(chapterDoc);
         if (!chapterData || !chapterData.props || !chapterData.props.pageProps) break;
 

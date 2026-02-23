@@ -1,7 +1,7 @@
 load('config.js');
 
 function execute(url, page) {
-    var doc = Http.get(page || url).html();
+    var doc = getDoc(page || url);
     var anchors = doc.select('a[href^="/story/"],a[href*="lacatruyen.online/story/"]');
 
     var data = [];
