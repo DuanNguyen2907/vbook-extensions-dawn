@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "author": "vBook",
+    "author": "vBookDawn",
     "description": ""
   },
   "data": [
@@ -12,6 +12,17 @@
       "source": "https://bnsach.com/reader",
       "icon": "https://raw.githubusercontent.com/Darkrai9x/vbook-extensions/master/bachngocsach/icon.png",
       "description": "Đọc truyện trên trang bnsach.com/reader",
+      "type": "novel",
+      "locale": "vi_VN"
+    },
+    {
+      "name": "Lacatruyen",
+      "author": "vBookDawn",
+      "path": "https://github.com/DuanNguyen2907/vbook-extensions-dawn/blob/master/lacatruyen/plugin.json",
+      "version": 10,
+      "source": "https://lacatruyen.online/",
+      "icon": "https://raw.githubusercontent.com/Darkrai9x/vbook-extensions/master/truyenfull/icon.png",
+      "description": "Đọc truyện trên trang Truyện Lacatruyen",
       "type": "novel",
       "locale": "vi_VN"
     },
