@@ -1,0 +1,20 @@
+{
+  "metadata": {
+    "name": "Lacatruyen",
+    "author": "vBook",
+    "version": 1,
+    "source": "https://lacatruyen.online",
+    "regexp": "(www\\.)?lacatruyen\\.[a-z]+/story/[^/]+/?$",
+    "description": "Đọc truyện chữ trên trang Lacatruyen",
+    "locale": "vi_VN",
+    "language": "javascript",
+    "type": "novel"
+  },
+  "script": {
+    "home": "home.js",
+    "detail": "detail.js",
+    "search": "search.js",
+    "toc": "toc.js",
+    "chap": "chap.js"
+  }
+}
