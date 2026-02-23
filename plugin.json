@@ -18,8 +18,8 @@
     {
       "name": "Lacatruyen",
       "author": "vBookDawn",
-      "path": "https://raw.githubusercontent.com/DuanNguyen2907/vbook-extensions-dawn/master/lacatruyen/plugin.json",
-      "version": 14,
+      "path": "https://raw.githubusercontent.com/DuanNguyen2907/vbook-extensions-dawn/master/lacatruyen/plugin.zip",
+      "version": 10,
       "source": "https://lacatruyen.online/",
       "icon": "https://raw.githubusercontent.com/DuanNguyen2907/vbook-extensions-dawn/master/lacatruyen/icon.png",
       "description": "Đọc truyện trên trang Truyện Lacatruyen",
