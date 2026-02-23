@@ -2,7 +2,7 @@ load('config.js');
 
 function execute(url) {
     var fixedUrl = absoluteUrl(url).replace(/\/$/, "");
-    var doc = Http.get(fixedUrl).html();
+    var doc = getDoc(fixedUrl);
     var nextData = parseNextData(doc);
 
     if (!nextData || !nextData.props || !nextData.props.pageProps) {

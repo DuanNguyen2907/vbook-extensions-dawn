@@ -2,7 +2,7 @@ load('config.js');
 
 function execute(key, page) {
     var url = page || (BASE_URL + "/search?s=" + encodeURIComponent(key || ""));
-    var doc = Http.get(url).html();
+    var doc = getDoc(url);
 
     var anchors = doc.select('a[href^="/story/"],a[href*="lacatruyen.online/story/"]');
     var data = [];

@@ -2,7 +2,7 @@
   "metadata": {
     "name": "Lacatruyen",
     "author": "vBook",
-    "version": 1,
+    "version": 3,
     "source": "https://lacatruyen.online",
     "regexp": "(www\\.)?lacatruyen\\.[a-z]+/story/[^/]+/?$",
     "description": "Đọc truyện chữ trên trang Lacatruyen",
