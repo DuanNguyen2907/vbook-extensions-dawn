@@ -18,13 +18,8 @@
     {
       "name": "Lacatruyen",
       "author": "vBookDawn",
-<<<<<<< codex/review-lacatruyen-extension-installation-issue-9mpanf
-      "path": "https://raw.githubusercontent.com/DuanNguyen2907/vbook-extensions-dawn/master/lacatruyen/plugin.json",
-      "version": 13,
-=======
       "path": "https://raw.githubusercontent.com/DuanNguyen2907/vbook-extensions-dawn/master/lacatruyen/plugin.zip",
       "version": 10,
->>>>>>> master
       "source": "https://lacatruyen.online/",
       "icon": "https://raw.githubusercontent.com/DuanNguyen2907/vbook-extensions-dawn/master/lacatruyen/icon.png",
       "description": "Đọc truyện trên trang Truyện Lacatruyen",
