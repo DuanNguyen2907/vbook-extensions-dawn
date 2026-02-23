@@ -18,10 +18,10 @@
     {
       "name": "Lacatruyen",
       "author": "vBookDawn",
-      "path": "https://github.com/DuanNguyen2907/vbook-extensions-dawn/blob/master/lacatruyen/plugin.json",
-      "version": 10,
+      "path": "https://raw.githubusercontent.com/DuanNguyen2907/vbook-extensions-dawn/master/lacatruyen/plugin.json",
+      "version": 13,
       "source": "https://lacatruyen.online/",
-      "icon": "https://raw.githubusercontent.com/Darkrai9x/vbook-extensions/master/truyenfull/icon.png",
+      "icon": "https://raw.githubusercontent.com/DuanNguyen2907/vbook-extensions-dawn/master/lacatruyen/icon.png",
       "description": "Đọc truyện trên trang Truyện Lacatruyen",
       "type": "novel",
       "locale": "vi_VN"
